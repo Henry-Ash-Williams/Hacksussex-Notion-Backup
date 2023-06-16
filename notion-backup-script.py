@@ -1,9 +1,13 @@
+from os import getenv
+from os import getenv
 import requests 
 from rich import print
 import os
+from os import getenv
 import shutil 
 import datetime
 import json
+from dotenv import load_dotenv
 
 INFO = '[[b green]+[/ b green]]'
 WARNING = '[[b yellow]+[/b yellow]]'
@@ -16,7 +20,7 @@ def main():
     os.mkdir(folder)
 
     headers = {
-      'Authorization': f'Bearer {YOUR_INTEGRATION_TOKEN}',
+      'Authorization': f'Bearer {getenv("NOTION_BEARER_TOKEN")}',
       'Notion-Version': '2022-06-28',
       'Content-Type': 'application/json',
     }
@@ -55,4 +59,5 @@ def main():
     os.rmdir(folder)
 
 if __name__ == "__main__":
+    load_dotenv()
     main()
