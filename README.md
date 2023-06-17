@@ -2,6 +2,10 @@
 
 ![Discord](https://img.shields.io/discord/611921273932611595?style=flat-square&logo=discord&logoColor=%23eee&link=https%3A%2F%2Fdiscord.gg%2FnhVwrBs8uh&label=Join%20our%20Discord%20)
 
+<p align="center>
+    <img width="20%" src="https://raw.githubusercontent.com/Henry-Ash-Williams/Hacksussex-Notion-Backup/master/assets/HackSussex-Circle-Trans-Grad-Ring.png">
+</p>
+
 Backup our notion page to a compressed tar archive. 
 
 ## Setup 
