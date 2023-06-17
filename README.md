@@ -20,7 +20,7 @@ Backup our notion page to a compressed tar archive.
 
 3. Install dependencies 
 
-    ` $ pip3 install -r requirements.txt`
+    `$ pip3 install -r requirements.txt`
 
 4. Set environment variables 
 
