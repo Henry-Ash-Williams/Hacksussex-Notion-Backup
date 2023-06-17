@@ -51,7 +51,7 @@ def main():
     print(f"{INFO} Done")
     print(f"{INFO} Creating archive...")
     
-    archive = shutil.make_archive(f"hs_notion_backup_{timestamp}", folder, format="gztar")
+    archive = shutil.make_archive(f"hs_notion_backup_{timestamp}", root_dir=folder, format="gztar")
 
     print(f"{INFO} Done, cleaning up...")
     os.rmdir(folder)
