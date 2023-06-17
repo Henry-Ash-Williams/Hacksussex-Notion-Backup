@@ -1,5 +1,3 @@
-from os import getenv
-from os import getenv
 import requests 
 from rich import print
 import os
